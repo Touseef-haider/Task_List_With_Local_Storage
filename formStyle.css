@@ -1,0 +1,56 @@
+*{ 
+    font-family: cursive;
+    font-size: 15px;           
+}
+.Main{
+    width: 100%;    
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 2px 2px 5px 5px #333;
+    justify-content: center;
+    background-color: lightgrey;
+}
+.Main>div{
+    margin: 5px auto;
+}
+.Container{
+    width: 400px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.Container .Input input {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+}
+.Container-1{
+    width: 400px;
+}
+.Container-1 .Filter input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    height: 30px;
+    background-color: grey;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: white;
+    color: grey;
+}
+.li{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+a{
+    margin-left:50px ;
+    text-decoration: none;
+}
